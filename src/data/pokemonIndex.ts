@@ -16,7 +16,7 @@ import type { PokemonIndexEntry } from '@/src/types/pokemon';
  * 公開後にここを実際の URL に変更してください。
  * 例: 'https://your-username.github.io/pokemon-data/pokemon.json'
  */
-const POKEMON_DATA_URL = 'https://YOUR_USERNAME.github.io/YOUR_REPO/pokemon.json';
+const POKEMON_DATA_URL = 'https://fuhi0521-bot.github.io/pokemon-checker-app/pokemon.json';
 
 const CACHE_KEY = '@pokemon-index:v11'; // v11: 自前ホスティングに切り替え
 const CACHE_TTL_MS = 30 * 24 * 60 * 60 * 1000; // 30日
