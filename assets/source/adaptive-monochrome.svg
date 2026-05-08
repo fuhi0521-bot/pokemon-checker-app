@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Android Adaptive Icon - Monochrome (1024×1024)
+  - 単色シルエット（黒）。Android のテーマアイコン用
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <path d="M 512 280
+           L 700 360
+           L 700 520
+           Q 700 660 512 760
+           Q 324 660 324 520
+           L 324 360 Z"
+        fill="#000000"/>
+</svg>

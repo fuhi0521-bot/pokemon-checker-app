@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  スプラッシュ画面の中央ロゴ (512×512)
+  - 透過背景 (resizeMode: 'contain' で中央配置される)
+  - icon.png のシールドのみを切り抜いた版
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- シールド -->
+  <path d="M 256 60
+           L 380 110
+           L 380 270
+           Q 380 380 256 446
+           Q 132 380 132 270
+           L 132 110 Z"
+        fill="#3b5ba7"/>
+
+  <!-- 6色のタイプドット -->
+  <circle cx="206" cy="200" r="28" fill="#EE8130"/>
+  <circle cx="256" cy="185" r="28" fill="#6390F0"/>
+  <circle cx="306" cy="200" r="28" fill="#F7D02C"/>
+  <circle cx="206" cy="276" r="28" fill="#7AC74C"/>
+  <circle cx="256" cy="291" r="28" fill="#A98FF3"/>
+  <circle cx="306" cy="276" r="28" fill="#D685AD"/>
+
+  <!-- チェックマーク -->
+  <path d="M 230 350 L 250 370 L 290 330"
+        stroke="#ffffff" stroke-width="11" stroke-linecap="round"
+        stroke-linejoin="round" fill="none"/>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  アプリアイコン (1024×1024 想定)
+  - ブランドカラー #3b5ba7 のシールド
+  - 18タイプを意識した6色のドットで「タイプバランス」を表現
+  - 公式ポケモンのIPには触れていない（オリジナルデザイン）
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- 背景: ブランドブルー、丸角は OS 側で適用される -->
+  <rect width="1024" height="1024" fill="#3b5ba7"/>
+
+  <!-- 中央のシールド形 -->
+  <path d="M 512 180
+           L 760 280
+           L 760 540
+           Q 760 720 512 844
+           Q 264 720 264 540
+           L 264 280 Z"
+        fill="#ffffff" opacity="0.97"/>
+
+  <!-- シールド内側の配色: 6つの円で6タイプを抽象表現 -->
+  <!-- 上段3つ -->
+  <circle cx="412" cy="400" r="56" fill="#EE8130"/>  <!-- 炎 -->
+  <circle cx="512" cy="370" r="56" fill="#6390F0"/>  <!-- 水 -->
+  <circle cx="612" cy="400" r="56" fill="#F7D02C"/>  <!-- 電 -->
+  <!-- 下段3つ -->
+  <circle cx="412" cy="552" r="56" fill="#7AC74C"/>  <!-- 草 -->
+  <circle cx="512" cy="582" r="56" fill="#A98FF3"/>  <!-- 飛 -->
+  <circle cx="612" cy="552" r="56" fill="#D685AD"/>  <!-- 妖 -->
+
+  <!-- 中央のチェックマーク（バランスOKを示唆） -->
+  <path d="M 460 700 L 500 740 L 580 660"
+        stroke="#3b5ba7" stroke-width="22" stroke-linecap="round"
+        stroke-linejoin="round" fill="none"/>
+</svg>
