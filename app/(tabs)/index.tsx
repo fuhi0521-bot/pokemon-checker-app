@@ -80,8 +80,7 @@ export default function HomeScreen() {
 
         {/* アプリタイトルヘッダー */}
         <View style={styles.header}>
-          <Text style={styles.title}>タイプバランス</Text>
-          <Text style={styles.subtitle}>対戦補助ツール（β）</Text>
+          <Text style={styles.title}>対戦補助ツール</Text>
         </View>
 
         {/* 機能カード一覧（enabled が false のものは除外） */}
